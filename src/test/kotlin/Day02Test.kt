@@ -1,12 +1,12 @@
-import Day1.part1
-import Day1.part2
+import Day2.part1
+import Day2.part2
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-private const val TEST_INPUT_NAME = "Day01_test"
-private const val INPUT_NAME = "Day01"
+private const val TEST_INPUT_NAME = "Day02_test"
+private const val INPUT_NAME = "Day02"
 
-internal class Day01Test {
+internal class Day02Test {
 
     @Test
     fun part1Test() {
@@ -16,7 +16,7 @@ internal class Day01Test {
 
         println("Solution for part 1 test: $testResult1")
 
-        assertEquals(7, testResult1)
+        assertEquals(150, testResult1)
 
         val input = readInput(INPUT_NAME)
 
@@ -24,7 +24,7 @@ internal class Day01Test {
 
         println("Solution for part 1: $result1")
 
-        assertEquals(1298, result1)
+        assertEquals(1815044, result1)
     }
 
     @Test
@@ -35,7 +35,7 @@ internal class Day01Test {
 
         println("Solution for part 2 test: $testResult2")
 
-        assertEquals(5, testResult2)
+        assertEquals(900, testResult2)
 
         val input = readInput(INPUT_NAME)
 
@@ -43,6 +43,6 @@ internal class Day01Test {
 
         println("Solution for part 2: $result2")
 
-        assertEquals(1248, result2)
+        assertEquals(1739283308, result2)
     }
 }
