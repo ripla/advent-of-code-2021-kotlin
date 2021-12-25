@@ -1,4 +1,5 @@
 object Day1 {
+
     fun part1(input: List<String>): Int {
         val inputList: List<Int> = input.map { it.toInt() }
         val inputPairs: List<Pair<Int, Int>> = inputList.windowed(2).map { Pair(it[0], it[1]) }
